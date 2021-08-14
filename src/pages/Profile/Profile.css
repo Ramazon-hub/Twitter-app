@@ -1,0 +1,30 @@
+.wrapper{
+    display: flex;
+
+}
+.sidebar-wrapper{
+    width: 23%;
+    height: 100vh;
+    border-right: 1px solid #999;
+
+}
+.posts-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.posts-wrapper-top{
+border-bottom: 1px solid #999;
+padding: 20px 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.title{
+font-size: 20px;
+font-weight: 700;
+
+}
+.logout{
+   display: block;
+}

@@ -1,0 +1,108 @@
+.wrapper{
+    display: flex;
+}
+.wrapper-title{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    width: 30%;
+    height: 100vh;     
+    background: #1FA2FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #129dfa, #129dfa, #129dfa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #12D8FA, #0bd2f5, #189ef8);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+}
+
+
+.already{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.signup-form{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 50px;
+}
+.twitter-img{
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+.input{
+border: none;
+outline: none;
+font-size: 20px;
+}
+.username-label{
+    position: relative;
+    display: block;
+border: 1px solid #999;
+border-radius: 5px;
+padding:20px 5px 5px 5px;
+margin-top: 20px;
+}
+.email-label{
+    position: relative;
+    display: block;
+border: 1px solid #999;
+border-radius: 5px;
+padding:20px 5px 5px 5px;
+margin-top: 20px;
+}
+
+.username-placeholder{
+    color: #999;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:5px;
+
+}
+.email-placeholder{
+    color: #999;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:5px;
+
+}
+.dateofbirth{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.date-input{
+    width: 30%;
+}
+.signin-btn{
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius:25px ;
+    font-size: 20px;
+    background-color: #1FA2FF;
+    border: none;
+    outline: none;
+    color: #fff;
+}

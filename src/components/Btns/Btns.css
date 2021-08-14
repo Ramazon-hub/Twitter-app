@@ -1,0 +1,15 @@
+.login{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all .4s;
+}
+.login:hover{
+    background-color: #fff;
+    color: #1E90FF;
+    border: 1px solid #1E90FF;
+    transform: scale(1.11);
+}

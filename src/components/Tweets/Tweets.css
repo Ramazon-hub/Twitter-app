@@ -1,0 +1,20 @@
+.twt-list{
+    list-style-type: none;
+    padding: 50px 100px;
+}
+.twt-list-item{
+    margin-top: 10px;
+    display: flex;
+    padding:15px;
+border: 1px solid #000;
+border-radius:12px;
+transition: all .5s;
+}
+.twt-list-item:hover{
+transform: scale(1.04);
+}
+.profile-img{
+    border-radius: 50%;
+    margin: 0 20px;
+
+}

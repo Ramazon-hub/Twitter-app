@@ -1,0 +1,72 @@
+.sidebar-nav{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.sidebar-list{
+    margin-top: 25px;
+    width: 100%;
+
+list-style: none;
+}
+.sidebar-list-item{
+margin-bottom: 20px;
+width: 100%;
+}
+.sidebar-list-link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    transition: all .1s;
+}
+.sidebar-list-link:hover{
+color: #1E90FF;
+font-size: 22px;
+}
+.sidebar-active-link{
+    color: #1E90FF;
+}
+.home-icon::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./home-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.login-icon::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./log-icon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.signup-icon::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(./sign-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.profile-icon::before{
+    content: '';
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background-image: url(./prof-icon.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
