@@ -1,7 +1,5 @@
 import './UserProfile.css'
-import tweets from '../../assets/Data/TweetsData'
 import useAuth from '../../hooks/Auth'
-import { useState } from 'react';
 import foto from '../Sidebar/prof-icon.webp'
 function UserProfile(){
     const [token] =useAuth();
